@@ -1,0 +1,4 @@
+logging:
+  config: xxxx.xml  #默认名为log4j2-spring.xml 额外定义修改此处即可
+  level:
+    cn.jay.repository: trace
