@@ -4,7 +4,19 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 <modules>
+    <module>springboot-docker</module>
+    <module>springboot-email</module>
+    <module>springboot-kafka</module>
     <module>springboot-log4j2</module>
+    <module>springboot-logback</module>
+    <module>springboot-mongodb</module>
+    <module>springboot-mybatis-annotation</module>
+    <module>springboot-mybatis-plus</module>
+    <module>springboot-mybatis-xml</module>
+    <module>springboot-oss-aliyun</module>
+    <module>springboot-oss-qiniu</module>
+    <module>springboot-swagger</module>
+    <module>springboot-redis-first</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
