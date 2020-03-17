@@ -14,7 +14,7 @@ import javax.mail.internet.MimeMessage;
 import java.io.File;
 
 /**
- * @Author Miracle Luna
+ * @Author Linker
  * @Date 2020/3/17 9:06 下午
  * @Version 1.0
  */

@@ -3,7 +3,7 @@ package com.xlccc.service;
 import javax.mail.MessagingException;
 
 /**
- * @Author Miracle Luna
+ * @Author Linker
  * @Date 2020/3/17 9:06 下午
  * @Version 1.0
  */
