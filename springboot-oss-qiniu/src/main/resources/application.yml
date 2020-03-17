@@ -1,0 +1,13 @@
+qiniu:
+  accessKey:
+  secretKey:
+  bucket:
+  prefix:
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      location: C:\Users\macro\Documents\GitHub\linkpro\springboot-oss-qiniu\tmp
+      file-size-threshold: 5MB
+      max-file-size: 20MB
