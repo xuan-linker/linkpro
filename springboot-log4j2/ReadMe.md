@@ -3,7 +3,6 @@
 > 此 demo 主要演示了 Spring Boot 如何使用 Log4j2
 
 ### pom.xml
-
 ```
          <dependency>
              <groupId>org.springframework.boot</groupId>
