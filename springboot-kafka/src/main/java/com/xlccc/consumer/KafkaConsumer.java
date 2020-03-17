@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @ClassName KafkaConsumer
  * @Description TODO
- * @Author Linkp
+ * @Author Linker
  * @Date 2020/1/14 12:51 AM
  **/
 @RestController

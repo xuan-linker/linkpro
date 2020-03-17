@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * @ClassName KafkaProducer
  * @Description TODO
- * @Author Linkp
+ * @Author Linker
  * @Date 2020/1/14 12:51 AM
  **/
 @Component
