@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: xuanlccc@163.com
+    password: #授权后密码
+    protocol: smtp
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.port: 994
+    properties.mail.display.sendmail: Javen
+    properties.mail.display.sendname: Spring Boot Guide Email
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+    from: xuanlccc@163.com
