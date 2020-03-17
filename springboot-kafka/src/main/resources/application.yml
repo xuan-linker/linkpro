@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    # kafka服务器地址(可以多个)
+    bootstrap-servers: localhost:9092
+    producer:
+      # 每次批量发送消息的数量
+      batch-size: 65536
+      buffer-memory: 524288
+      # key/value的序列化
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      # 指定一个默认的组名
+      group-id: test
+      # key/value的反序列化
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
