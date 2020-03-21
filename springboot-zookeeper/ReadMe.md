@@ -2,7 +2,8 @@
 
 > 此 demo 主要演示了 Spring Boot 简单使用 Zookeeper
 
-
+### 安装Zookeeper
+安装教程：http://xlccc.com/archives/linpro-springboot-zookeeper
 ### pom.xml
 ```xml
     <dependencies>
@@ -120,7 +121,7 @@ public class ZkWatcher implements Watcher {
 ```
 
 ### ZkProps
-#####方法一
+##### 方法一
 ```java
 /**
  * @Author Linker
