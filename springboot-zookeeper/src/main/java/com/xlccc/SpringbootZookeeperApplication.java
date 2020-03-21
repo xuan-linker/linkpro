@@ -13,11 +13,13 @@ public class SpringbootZookeeperApplication {
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
         ZookeeperUtil zu = new ZookeeperUtil();
         zu.ZkConnection();
+        zu.delete();
         zu.getAll();
         zu.create();
         zu.getData();
         zu.update();
         zu.getAll();
+        zu.delete();
 //        SpringApplication.run(SpringbootZookeeperApplication.class, args);
     }
 
