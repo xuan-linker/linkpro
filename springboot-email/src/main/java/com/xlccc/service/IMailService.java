@@ -16,6 +16,13 @@ public interface IMailService {
      */
     public void sendSimpleMail(String to, String subject, String content);
 
+    /**
+     * 发送文本邮件
+     * @param to
+     * @param subject
+     * @param content
+     * @param cc
+     */
     public void sendSimpleMail(String to, String subject, String content, String... cc);
 
     /**

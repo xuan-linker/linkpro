@@ -24,14 +24,14 @@ public class ZookeeperUtil {
 
         Thread.sleep(2000);
         System.out.println(zkClient.getState());
-//        zkClient.close();
+        //zkClient.close();
 
     }
 
     public void getAll() throws IOException, KeeperException, InterruptedException {
         ZkProps zkProps = new ZkProps();
         ZooKeeper zkClient = new ZooKeeper(zkProps.url, zkProps.timeout, new ZkWatcher());
-//第二个参数表示是否监视该节点
+        //第二个参数表示是否监视该节点
         List<String> children = zkClient.getChildren("/", true);
         System.out.println(children);
 
@@ -74,7 +74,8 @@ public class ZookeeperUtil {
         ZooKeeper zkClient = new ZooKeeper(zkProps.url, zkProps.timeout, new ZkWatcher());
         Stat stat = new Stat();
 
-        zkClient.setData("/link", "hello".getBytes(), stat.getVersion()); //第三个参数表示当前节点的数据版本，一般先获取数据stat，然后指定数据版本
+        //第三个参数表示当前节点的数据版本，一般先获取数据stat，然后指定数据版本
+        zkClient.setData("/link", "hello".getBytes(), stat.getVersion());
 
         zkClient.close();
     }

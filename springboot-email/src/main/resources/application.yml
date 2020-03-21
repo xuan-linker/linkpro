@@ -1,7 +1,7 @@
 spring:
   mail:
     host: smtp.163.com
-    username: xuanlccc@163.com
+    username: xuanlccc@gmail.com
     password: #授权后密码
     protocol: smtp
     properties.mail.smtp.auth: true
@@ -12,4 +12,4 @@ spring:
     properties.mail.smtp.starttls.required: true
     properties.mail.smtp.ssl.enable: true
     default-encoding: utf-8
-    from: xuanlccc@163.com
+    from: xuanlccc@gmail.com
