@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xlccc.mapper.UserMapper">
+    <resultMap type="User" id="userMap">
+        <id property="uid" column="id" />
+        <result property="uname" column="name" />
+        <result property="upwd" column="pwd" />
+        <result property="salt" column="salt" />
+        <collection property="roles" ofType="Role">
+            <id property="rid" column="id" />
+            <result property="rname" column="name" />
+            <collection property="permissions" ofType="Permission">
+                <id property="pid" column="id" />
+                <result property="permission" column="permission" />
+            </collection>
+        </collection>
+    </resultMap>
+
+
+    <select id="findUserByName" parameterType="java.lang.String" resultMap="userMap">
+        SELECT u.*,r.*,p.*
+        FROM user u
+                 INNER JOIN user_role ur ON ur.uid = u.id
+                 INNER JOIN role r ON r.id = ur.rid
+                 INNER JOIN permission_role pr ON pr.rid = r.id
+                 INNER JOIN permission p ON pr.pid = p.id
+        WHERE u.name = #{name};
+    </select>
+    <select id="selectPermissionByUserId" parameterType="integer" resultType="string">
+SELECT permission FROM permission p INNER JOIN permission_role pr ON p.id=pr.pid
+INNER JOIN user_role ur ON ur.rid=pr.rid
+WHERE ur.uid=#{id}
+    </select>
+    <select id="findUserJustByName" parameterType="string" resultType="user">
+SELECT * from user u where u.NAME=#{name}
+    </select>
+</mapper>

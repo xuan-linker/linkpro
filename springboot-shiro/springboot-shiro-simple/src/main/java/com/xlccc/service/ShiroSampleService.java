@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author Linker
- * @date 2020/2/8 23:42
+ * @Date 2020/2/8 23:42
  */
 @Service
 public class ShiroSampleService {

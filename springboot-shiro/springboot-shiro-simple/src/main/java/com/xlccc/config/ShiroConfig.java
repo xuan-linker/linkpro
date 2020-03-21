@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @Author Linker
- * @date 2020/2/8 22:25
+ * @Date 2020/2/8 22:25
  * @Version 1.0
  */
 @Configuration
