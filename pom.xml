@@ -17,6 +17,8 @@
     <module>springboot-oss-qiniu</module>
     <module>springboot-swagger</module>
     <module>springboot-redis-first</module>
+    <module>springboot-dubbo</module>
+
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
