@@ -3,15 +3,16 @@ package com.xlccc.util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Redis工具类
- * 将Spring提供的StringRedisTemplate封装成Redis常用命令
+ * @Author Linker
+ * @Date 2020/3/21 10:49 下午
+ * @Version 1.0
+ * @Todo Redis工具类 将Spring提供的StringRedisTemplate封装成Redis常用命令
  */
 @Component
 public class RedisUtils {

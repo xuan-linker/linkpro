@@ -123,5 +123,5 @@ swagger.base-path=/**
 进入 `http://localhost:8080/swagger-ui.html`
 ### 参考
 * [Swagger官网](https://swagger.io/)
-* [最简单的SpringBoot-ZooKeeper入门项目](https://github.com/xuan-linker/linkpro/tree/master/springboot-swagger)
+* [最简单的SpringBoot-Swagger入门项目](http://xlccc.com/archives/linpro-springboot-swagger)
 
