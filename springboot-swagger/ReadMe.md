@@ -1,3 +1,19 @@
+# springboot-swagger
+
+> 此 demo 主要演示了 Spring Boot 简单使用 Swagger
+
+
+### pom.xml
+```xml
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.9.0.RELEASE</version>
+        </dependency>
+```
+
+### UserController
+```java
 package com.xlccc.controller;
 
 import com.xlccc.pojo.User;
@@ -59,3 +75,53 @@ public class UserController {
     }
 
 }
+
+
+```
+### User
+```java
+package com.xlccc.pojo;
+
+import io.swagger.annotations.ApiModel;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * @Author Linker
+ * @Date 2020/3/17 10:49 下午
+ * @Version 1.0
+ */
+@Data
+@Getter
+@Setter
+@ApiModel(description = "用户实体")
+public class User {
+    private Long Id ;
+    private String name ;
+}
+
+```
+
+### application.properties
+```properties
+swagger.title=spring-boot-starter-swagger
+swagger.description=Starter for swagger 2.x
+swagger.version=1.4.0.RELEASE
+swagger.license=Apache License, Version 2.0
+swagger.licenseUrl=https://www.apache.org/licenses/LICENSE-2.0.html
+swagger.termsOfServiceUrl=https://github.com/xuan-linker/linkpro
+swagger.contact.name=Linker
+swagger.contact.url=http://www.xlccc.com
+swagger.contact.email=xuanlccc@gmail.com
+swagger.base-package=com.xlccc
+swagger.base-path=/**
+
+```
+### 测试运行
+启动项目
+进入 `http://localhost:8080/swagger-ui.html`
+### 参考
+* [Swagger官网](https://swagger.io/)
+* [最简单的SpringBoot-ZooKeeper入门项目](https://github.com/xuan-linker/linkpro/tree/master/springboot-swagger)
+
