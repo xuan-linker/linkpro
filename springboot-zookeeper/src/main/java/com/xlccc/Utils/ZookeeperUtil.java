@@ -31,8 +31,8 @@ public class ZookeeperUtil {
     public void getAll() throws IOException, KeeperException, InterruptedException {
         ZkProps zkProps = new ZkProps();
         ZooKeeper zkClient = new ZooKeeper(zkProps.url, zkProps.timeout, new ZkWatcher());
-
-        List<String> children = zkClient.getChildren("/", true);//第二个参数表示是否监视该节点
+//第二个参数表示是否监视该节点
+        List<String> children = zkClient.getChildren("/", true);
         System.out.println(children);
 
         zkClient.close();
