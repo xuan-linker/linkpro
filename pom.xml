@@ -18,6 +18,7 @@
     <module>springboot-swagger</module>
     <module>springboot-redis-first</module>
     <module>springboot-dubbo</module>
+    <module>springboot-jwt</module>
 
 </modules>
     <parent>
