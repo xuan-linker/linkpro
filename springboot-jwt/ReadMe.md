@@ -288,6 +288,7 @@ public class SpringbootJwtApplication {
     }
 }
 ```
+* [最简单的SpringBoot-Jwt入门项目](http://xlccc.com/archives/linker-springboot-jwt)
 * [JWT官网](https://jwt.io/)
 * [Springboot-整合filter的两种方式](https://blog.csdn.net/u010675669/article/details/91846236)
 * [SpringBoot集成JWT实现权限认证](https://juejin.im/post/5dca491ff265da4d0e00afbf)
