@@ -42,9 +42,7 @@ public class UserController {
         String str = WeChatUtil.httpRequest(url, "GET", null);
 
         // 转成Json对象 获取openid
-        Map<String, Object> map = new HashMap<>();
         JSONObject jsonObject = new JSONObject(str);
-        map.put("str", str);
 
         // 我们需要的openid，在一个小程序中，openid是唯一的
         String openid = null;
