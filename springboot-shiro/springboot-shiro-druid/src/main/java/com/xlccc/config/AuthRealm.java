@@ -20,6 +20,7 @@ import java.util.Set;
  * @Author Linker
  * @Date 2020/3/27 8:34 下午
  * @Version 1.0
+ * @Todo:认证与授权
  */
 public class AuthRealm extends AuthorizingRealm {
     @Autowired

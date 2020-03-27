@@ -16,8 +16,7 @@ import java.util.LinkedHashMap;
  * @Author Linker
  * @Date 2020/3/27 8:58 下午
  * @Version 1.0
- * @Todo:Shiro核心配置
- * 依次注入
+ * @Todo:Shiro核心配置 依次注入
  */
 @Configuration
 public class ShiroConfiguration {
@@ -40,12 +39,12 @@ public class ShiroConfiguration {
         filterChainDefinitionMap.put("/index", "authc");
         //anon 无需校验
         filterChainDefinitionMap.put("/login", "anon");
-        filterChainDefinitionMap.put("/loginUser","anon");
-        filterChainDefinitionMap.put("/admin","roles[admin]");
+        filterChainDefinitionMap.put("/loginUser", "anon");
+        filterChainDefinitionMap.put("/admin", "roles[admin]");
         //具有edit的Permission的人才可以访问
-        filterChainDefinitionMap.put("/edit","perms[edit]");
-        filterChainDefinitionMap.put("/druid/**","anon");
-        filterChainDefinitionMap.put("/**","user");
+        filterChainDefinitionMap.put("/edit", "perms[edit]");
+        filterChainDefinitionMap.put("/druid/**", "anon");
+        filterChainDefinitionMap.put("/**", "user");
         bean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return bean;
     }
@@ -100,6 +99,7 @@ public class ShiroConfiguration {
 
     /**
      * shiro与spring之间关联
+     *
      * @return
      */
     @Bean
