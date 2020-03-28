@@ -14,10 +14,11 @@ import org.springframework.stereotype.Component;
 public class KafkaProducer {
     /**
      * 订阅指定主题的消息
+     *
      * @param record 消息记录
      */
     @KafkaListener(topics = {"sunday"})
-    public void listen(ConsumerRecord record){
-        System.out.println(record.topic()+":"+record.value());
+    public void listen(ConsumerRecord record) {
+        System.out.println(record.topic() + ":" + record.value());
     }
 }

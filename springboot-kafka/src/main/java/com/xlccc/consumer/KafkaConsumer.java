@@ -18,13 +18,14 @@ public class KafkaConsumer {
 
     /**
      * 发送消息到Kafka
-     * @param topic 主题，如果主题不存在，会自动创建主题
-     * @param message　消息
+     *
+     * @param topic   主题，如果主题不存在，会自动创建主题
+     * @param message 　消息
      * @return
      */
     @RequestMapping("/sendMsg")
-    public String sendMsg(String topic , String message){
-        template.send(topic,message);
+    public String sendMsg(String topic, String message) {
+        template.send(topic, message);
         return "success";
     }
 }
