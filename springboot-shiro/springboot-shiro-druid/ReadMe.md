@@ -308,6 +308,19 @@ public class TestController {
 }
 
 ```
+
+### 运行
+```
+登录
+http://localhost:8080/admin
+没有权限 自动跳转
+http://localhost:8080/login
+admin/123  **有权限访问**
+demo/123   **无权限访问**
+http://localhost:8080/edit
+退出登录
+http://localhost:8080/logout
+```
 ### 参考
 * [Shiro 官网](https://shiro.apache.org/)
 * [简单的Springboot-Shiro-Druid入门教程](http://xlccc.com/archives/linker-springboot-shiro-druid)
