@@ -15,6 +15,7 @@
 
     <modules>
         <module>springboot-shiro-simple</module>
+        <module>springboot-shiro-normal</module>
     </modules>
     <dependencies>
         <dependency>

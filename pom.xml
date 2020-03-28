@@ -20,7 +20,10 @@
     <module>springboot-dubbo</module>
     <module>springboot-jwt</module>
     <module>springboot-security</module>
-
+    <module>springboot-zookeeper</module>
+    <module>springboot-war</module>
+    <module>springboot-wechat-login</module>
+    <module>springboot-shiro</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
