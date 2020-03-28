@@ -16,6 +16,12 @@
 
     <packaging>pom</packaging>
 
+    <modules>
+        <module>springboot-dubbo-provider</module>
+        <module>springboot-dubbo-consumer</module>
+        <module>springboot-dubbo-common</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
