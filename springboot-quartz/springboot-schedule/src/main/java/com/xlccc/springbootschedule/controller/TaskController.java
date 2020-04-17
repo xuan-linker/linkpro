@@ -28,8 +28,6 @@ public class TaskController {
     public String executeTask() {
         JobDetail jobDetail = JobBuilder.newJob(ScheduleTaskJob.class)
                 .withIdentity("MyFirstQuartzTest")
-//                .usingJobData("msg1", "ScheduleTaskJob")
-//                .storeDurably()
                 .build();
         SimpleScheduleBuilder simpleScheduleBuilder = SimpleScheduleBuilder.simpleSchedule()
                 .withIntervalInSeconds(5)
