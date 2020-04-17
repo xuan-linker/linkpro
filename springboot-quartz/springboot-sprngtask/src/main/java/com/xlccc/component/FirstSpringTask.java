@@ -26,8 +26,8 @@ public class FirstSpringTask {
     }
 
     @Async
-    @Scheduled()
-    public void AsyncTask(){
+    @Scheduled(fixedRate = 2000)
+    public void AsyncTask() {
         log.info("AsyncTask -- Hello ");
     }
 
