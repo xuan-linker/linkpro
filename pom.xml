@@ -24,6 +24,9 @@
     <module>springboot-war</module>
     <module>springboot-wechat-login</module>
     <module>springboot-shiro</module>
+    <module>springboot-junit</module>
+    <module>springboot-hutool</module>
+    <module>springboot-quartz</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

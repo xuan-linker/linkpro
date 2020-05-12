@@ -13,6 +13,11 @@
     <name>springboot-quartz</name>
     <description>Demo project for Spring Boot</description>
 
+    <modules>
+        <module>springboot-schedule</module>
+        <module>springboot-sprngtask</module>
+    </modules>
+    
     <dependencies>
         <!-- Spring Task -->
         <dependency>
