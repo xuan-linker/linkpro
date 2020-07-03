@@ -27,6 +27,7 @@
     <module>springboot-junit</module>
     <module>springboot-hutool</module>
     <module>springboot-quartz</module>
+    <module>springboot-rabbitmq</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
