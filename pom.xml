@@ -29,6 +29,7 @@
     <module>springboot-quartz</module>
     <module>springboot-rabbitmq</module>
     <module>springboot-transaction</module>
+    <module>springboot-sso</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
