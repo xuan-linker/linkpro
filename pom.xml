@@ -30,6 +30,7 @@
     <module>springboot-rabbitmq</module>
     <module>springboot-transaction</module>
     <module>springboot-sso</module>
+    <module>springboot-elasticsearch</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
