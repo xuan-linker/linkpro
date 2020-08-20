@@ -75,7 +75,7 @@ public class TransactionPropagationExampleImpl implements TransactionPropagation
     @Transactional(propagation = Propagation.REQUIRED)
     public void transaction_exception_required_required() {
         User1 user1 = new User1();
-        user1.setName("user1");   s
+        user1.setName("user1");
         user1Service.addRequired(user1);
 
         User2 user2 = new User2();
