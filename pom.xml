@@ -32,6 +32,7 @@
     <module>springboot-sso</module>
     <module>springboot-elasticsearch</module>
     <module>springboot-logservice-aliyun</module>
+    <module>springboot-maven</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
