@@ -1,6 +1,14 @@
 # springboot-redis-first
 
 > 此 demo 主要演示了 Spring Boot 简单使用 Redis
+### Docker安装Redis
+
+docker hub for redis
+`https://hub.docker.com/_/redis`
+
+启动redis 并设置密码
+`docker run -p 6379:6379 --name redis -d redis  --requirepass "admin"`
+
 
 ### 安装Redis
 下载地址:https://redis.io/download
