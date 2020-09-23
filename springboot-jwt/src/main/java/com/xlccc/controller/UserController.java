@@ -1,6 +1,6 @@
 package com.xlccc.controller;
 
-import com.xlccc.Utils.JwtUtil;
+import com.xlccc.utils.JwtUtil;
 import com.xlccc.pojo.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;

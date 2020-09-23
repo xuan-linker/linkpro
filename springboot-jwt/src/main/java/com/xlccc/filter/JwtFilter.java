@@ -1,7 +1,7 @@
 package com.xlccc.filter;
 
 import com.auth0.jwt.interfaces.Claim;
-import com.xlccc.Utils.JwtUtil;
+import com.xlccc.utils.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

@@ -2,9 +2,28 @@
 
 > 此 demo 主要演示了 Spring Boot 简单使用 Zookeeper
 
-### 安装Zookeeper
+### Docker安装Zookeeper
+
+1. docker hub for zookeeper
+
+`https://hub.docker.com/_/zookeeper`
+
+2. 拉取镜像
+
+`docker pull zookeeper`
+
+3. 启动单机zookeeper
+
+`docker run -p 2181:2181 --name link-zookeeper --restart always -d zookeeper`
+
+-- restart always：始终重新启动zookeeper
+
+### Mac安装Zookeeper
+
 安装教程：http://xlccc.com/archives/linpro-springboot-zookeeper
+
 ### pom.xml
+
 ```xml
     <dependencies>
         <dependency>
@@ -16,9 +35,10 @@
 ```
 
 ### ZookeeperUtil
+
 ```java
-import com.xlccc.config.props.ZkProps;
-import com.xlccc.config.props.ZkWatcher;
+import ZkProps;
+import ZkWatcher;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;

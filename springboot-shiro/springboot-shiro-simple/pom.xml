@@ -13,9 +13,7 @@
     <name>springboot-shiro-simple</name>
     <description>Demo project for Spring Boot Shiro</description>
 
-
     <dependencies>
-
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring-boot-starter</artifactId>

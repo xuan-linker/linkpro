@@ -12,6 +12,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-shiro</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <modules>
         <module>springboot-shiro-simple</module>
@@ -24,21 +25,21 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <version>2.1.1.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-web</artifactId>-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-test</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
         <!--mybatis-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -65,10 +66,10 @@
             <artifactId>druid</artifactId>
             <version>1.1.4</version>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.projectlombok</groupId>-->
+<!--            <artifactId>lombok</artifactId>-->
+<!--            <version>1.18.6</version>-->
+<!--        </dependency>-->
     </dependencies>
 </project>

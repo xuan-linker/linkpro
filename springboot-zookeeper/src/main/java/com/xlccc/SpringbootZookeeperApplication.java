@@ -1,26 +1,12 @@
 package com.xlccc;
 
-import com.xlccc.Utils.ZookeeperUtil;
-import org.apache.zookeeper.KeeperException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.io.IOException;
 
 @SpringBootApplication
 public class SpringbootZookeeperApplication {
 
-    public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
-        ZookeeperUtil zu = new ZookeeperUtil();
-        zu.ZkConnection();
-        zu.delete();
-        zu.getAll();
-        zu.create();
-        zu.getData();
-        zu.update();
-        zu.getAll();
-        zu.delete();
-//        SpringApplication.run(SpringbootZookeeperApplication.class, args);
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootZookeeperApplication.class, args);
     }
-
 }

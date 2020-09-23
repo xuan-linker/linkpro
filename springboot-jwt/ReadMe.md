@@ -13,7 +13,7 @@
 ```
 ### JwtUtil
 ```java
-package com.xlccc.Utils;
+package com.xlccc.utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -96,7 +96,7 @@ public class JwtUtil {
 package com.xlccc.filter;
 
 import com.auth0.jwt.interfaces.Claim;
-import com.xlccc.Utils.JwtUtil;
+import com.xlccc.utils.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -167,7 +167,7 @@ public class JwtFilter implements Filter {
 ```java
 package com.xlccc.controller;
 
-import com.xlccc.Utils.JwtUtil;
+import com.xlccc.utils.JwtUtil;
 import com.xlccc.pojo.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;

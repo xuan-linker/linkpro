@@ -1,9 +1,10 @@
 server:
   port: 8080
   servlet:
-    context-path: /demo
+    context-path: /link-zookeeper
 
-#zk:
-#  url: 127.0.0.1:2181
-#  timeout: 2000
-#  retry: 3
+
+zk:
+  url: 127.0.0.1:2181
+  timeout: 2000
+  retry: 3

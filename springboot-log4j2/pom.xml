@@ -6,7 +6,6 @@
         <groupId>com.xlccc</groupId>
         <artifactId>linkpro</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xlccc</groupId>
     <artifactId>springboot-log4j2</artifactId>
