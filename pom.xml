@@ -34,6 +34,7 @@
     <module>springboot-logservice-aliyun</module>
     <module>springboot-maven</module>
     <module>springboot-rabbitmq-normal</module>
+    <module>springboot-mybatis-plus-init</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
