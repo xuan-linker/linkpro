@@ -35,6 +35,7 @@
     <module>springboot-maven</module>
     <module>springboot-rabbitmq-normal</module>
     <module>springboot-mybatis-plus-init</module>
+    <module>springboot-aop</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
