@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+rocketmq:
+  nameserver: localhost:9876
+  topic: topic_family
