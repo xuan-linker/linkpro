@@ -1,4 +1,4 @@
-package com.xlccc.entity;
+package com.xlccc.log.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

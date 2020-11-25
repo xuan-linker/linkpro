@@ -1,4 +1,4 @@
-package com.xlccc.annotation;
+package com.xlccc.log.annotation;
 
 import java.lang.annotation.*;
 

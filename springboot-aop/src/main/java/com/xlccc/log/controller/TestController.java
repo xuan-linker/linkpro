@@ -1,6 +1,6 @@
-package com.xlccc.controller;
+package com.xlccc.log.controller;
 
-import com.xlccc.annotation.SysLogAnnotation;
+import com.xlccc.log.annotation.SysLogAnnotation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

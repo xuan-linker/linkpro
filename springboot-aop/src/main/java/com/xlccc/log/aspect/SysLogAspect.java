@@ -1,8 +1,8 @@
-package com.xlccc.aspect;
+package com.xlccc.log.aspect;
 
 import com.google.gson.Gson;
-import com.xlccc.annotation.SysLogAnnotation;
-import com.xlccc.entity.SysLog;
+import com.xlccc.log.annotation.SysLogAnnotation;
+import com.xlccc.log.entity.SysLog;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -36,7 +36,7 @@ public class SysLogAspect {
      * 切点表达式： execution(...)
      * 例如：execution(public * com.example.demo.controller.*.*(..))
      */
-    @Pointcut(value = "@annotation(com.xlccc.annotation.SysLogAnnotation)")
+    @Pointcut(value = "@annotation(com.xlccc.log.annotation.SysLogAnnotation)")
     public void logPointCut() {
     }
 
