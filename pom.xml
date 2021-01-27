@@ -38,6 +38,7 @@
     <module>springboot-aop</module>
     <module>springboot-rocketmq</module>
     <module>springboot-mybatis</module>
+    <module>springboot-swagger-config</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
