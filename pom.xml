@@ -39,6 +39,7 @@
     <module>springboot-rocketmq</module>
     <module>springboot-mybatis</module>
     <module>springboot-swagger-config</module>
+    <module>springboot-security-full</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
