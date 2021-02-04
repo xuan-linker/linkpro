@@ -42,6 +42,7 @@
     <module>springboot-security-full</module>
     <module>springboot-elasticsearch-full</module>
     <module>springboot-rabbit-full</module>
+    <module>springboot-oss-aliyun-full</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
