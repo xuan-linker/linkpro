@@ -44,6 +44,7 @@
     <module>springboot-elasticsearch-full</module>
     <module>springboot-rabbit-full</module>
     <module>springboot-oss-aliyun-full</module>
+    <module>springboot-activemq</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
