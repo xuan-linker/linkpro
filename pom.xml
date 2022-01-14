@@ -34,6 +34,7 @@
     <module>springboot-logservice-aliyun</module>
     <module>springboot-maven</module>
     <module>springboot-rabbitmq-normal</module>
+    <module>springboot-ratelimiter</module>
     <module>springboot-mybatis-plus-init</module>
     <module>springboot-aop</module>
     <module>springboot-rocketmq</module>
