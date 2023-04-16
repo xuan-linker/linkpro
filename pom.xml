@@ -46,6 +46,7 @@
     <module>springboot-oss-aliyun-full</module>
     <module>springboot-activemq</module>
     <module>springboot-netty</module>
+    <module>springboot-jna</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
