@@ -47,6 +47,7 @@
     <module>springboot-activemq</module>
     <module>springboot-netty</module>
     <module>springboot-jna</module>
+    <module>springboot-cv</module>
 </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
