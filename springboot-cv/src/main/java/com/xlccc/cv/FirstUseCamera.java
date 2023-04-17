@@ -4,7 +4,6 @@ package com.xlccc.cv;
 import javax.swing.JFrame;
 
 import org.bytedeco.javacv.CanvasFrame;
-import org.bytedeco.javacv.OpenCVFrameConverter;
 import org.bytedeco.javacv.FrameGrabber.Exception;
 import org.bytedeco.javacv.OpenCVFrameGrabber;
 
